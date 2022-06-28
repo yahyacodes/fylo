@@ -1,0 +1,627 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Anek+Latin:wght@300&family=Josefin+Sans:ital,wght@1,300&family=Manrope:wght@800&family=Raleway&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: hsl(218, 28%, 13%);
+}
+
+.logo {
+  position: absolute;
+  top: 3.5rem;
+  left: 8rem;
+  cursor: pointer;
+}
+
+ul {
+  position: absolute;
+  top: 3rem;
+  right: 20rem;
+}
+
+ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 20px;
+  color: gray;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.hero-image {
+  position: absolute;
+  top: 8rem;
+  left: 37rem;
+  width: 700px;
+}
+
+.files {
+  position: absolute;
+  top: 43rem;
+  left: 37rem;
+  font-size: 45px;
+  color: white;
+}
+
+.location {
+  position: absolute;
+  top: 46rem;
+  left: 47rem;
+  font-size: 40px;
+  color: white;
+}
+
+.store {
+  position: absolute;
+  top: 50rem;
+  left: 40rem;
+  opacity: 0.8;
+  font-size: 22px;
+  color: lavender;
+}
+
+.family {
+  position: absolute;
+  top: 53.5rem;
+  left: 50rem;
+  opacity: 0.8;
+  font-size: 22px;
+  color: lavender;
+}
+
+.btn {
+  position: absolute;
+  top: 57rem;
+  left: 53rem;
+  font-size: 22px;
+  color: white;
+  background-color: hsl(176, 68%, 64%);
+  background-color: hsl(198, 60%, 50%);
+  padding: 10px 60px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.tech {
+  position: absolute;
+  top: 70rem;
+  left: 30rem;
+}
+
+.access {
+  position: absolute;
+  top: 76rem;
+  left: 23rem;
+  font-size: 24px;
+  color: white;
+}
+
+.ability {
+  position: absolute;
+  top: 78.5rem;
+  left: 23rem;
+  opacity: 0.8;
+  font-size: 14px;
+  color: white;
+}
+
+.follows {
+  position: absolute;
+  top: 80.7rem;
+  left: 30rem;
+  opacity: 0.8;
+  font-size: 14px;
+  color: white;
+}
+
+.security {
+  position: absolute;
+  top: 70rem;
+  left: 80rem;
+}
+
+.trust {
+  position: absolute;
+  top: 76rem;
+  left: 75rem;
+  font-size: 24px;
+  color: white;
+}
+
+.factor {
+  position: absolute;
+  top: 78.5rem;
+  left: 73rem;
+  opacity: 0.8;
+  font-size: 14px;
+  color: white;
+}
+
+.secure {
+  position: absolute;
+  top: 80.7rem;
+  left: 80rem;
+  opacity: 0.8;
+  font-size: 14px;
+  color: white;
+}
+
+.time {
+  position: absolute;
+  top: 88rem;
+  left: 30rem;
+}
+
+.collaboration {
+  position: absolute;
+  top: 93.5rem;
+  left: 25rem;
+  font-size: 24px;
+  color: white;
+}
+
+.share {
+  position: absolute;
+  top: 95.5rem;
+  left: 23rem;
+  opacity: 0.8;
+  font-size: 14px;
+  color: white;
+}
+
+.required {
+  position: absolute;
+  top: 97.7rem;
+  left: 31rem;
+  opacity: 0.8;
+  font-size: 14px;
+  color: white;
+}
+
+.folder {
+  position: absolute;
+  top: 88rem;
+  left: 80rem;
+}
+
+.type {
+  position: absolute;
+  top: 93.5rem;
+  left: 75rem;
+  font-size: 24px;
+  color: white;
+}
+
+.holidays {
+  position: absolute;
+  top: 95.5rem;
+  left: 73rem;
+  opacity: 0.8;
+  font-size: 14px;
+  color: white;
+}
+
+.types {
+  position: absolute;
+  top: 97.7rem;
+  left: 75rem;
+  opacity: 0.8;
+  font-size: 14px;
+  color: white;
+}
+
+.stay {
+  position: absolute;
+  top: 115rem;
+  left: 18rem;
+}
+
+.product {
+  position: absolute;
+  top: 122rem;
+  left: 63rem;
+  font-size: 45px;
+  color: white;
+}
+
+.issue {
+  position: absolute;
+  top: 129rem;
+  left: 63rem;
+  opacity: 0.8;
+  font-size: 15px;
+  color: white;
+}
+
+.friends {
+  position: absolute;
+  top: 132.5rem;
+  left: 63rem;
+  opacity: 0.8;
+  font-size: 15px;
+  color: white;
+}
+
+.work {
+  position: absolute;
+  top: 136rem;
+  left: 63rem;
+  opacity: 0.8;
+  font-size: 15px;
+  color: hsl(176, 68%, 64%);
+  border-bottom: 1px solid hsl(176, 68%, 64%);
+  cursor: pointer;
+}
+
+.quotes {
+  position: absolute;
+  top: 155rem;
+  left: 18rem;
+  cursor: pointer;
+}
+
+.doe {
+  position: absolute;
+  top: 159rem;
+  left: 22rem;
+  width: 400px;
+  height: 220px;
+  background-color: hsl(219, 30%, 18%);
+  border-radius: 5px;
+}
+
+.john {
+  position: absolute;
+  top: 9.5rem;
+  left: 1rem;
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50px;
+}
+
+.name1 {
+  position: absolute;
+  top: 9.9rem;
+  left: 5rem;
+  color: white;
+  opacity: 0.9;
+  font-size: 14px;
+}
+
+.ceo {
+  position: absolute;
+  top: 11.2rem;
+  left: 5rem;
+  color: white;
+  opacity: 0.9;
+  font-size: 14px;
+}
+
+.profile1 {
+  position: absolute;
+  top: 2.7rem;
+  left: 1rem;
+  color: white;
+  opacity: 0.9;
+  font-size: 18px;
+}
+
+.bruce {
+  position: absolute;
+  top: 159rem;
+  left: 50rem;
+  width: 400px;
+  height: 220px;
+  background-color: hsl(219, 30%, 18%);
+  border-radius: 5px;
+}
+
+.mckazie {
+  position: absolute;
+  top: 9.5rem;
+  left: 1rem;
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50px;
+}
+
+.name2 {
+  position: absolute;
+  top: 9.9rem;
+  left: 5rem;
+  color: white;
+  opacity: 0.9;
+  font-size: 14px;
+}
+
+.ceo2 {
+  position: absolute;
+  top: 11.2rem;
+  left: 5rem;
+  color: white;
+  opacity: 0.9;
+  font-size: 14px;
+}
+
+.profile2 {
+  position: absolute;
+  top: 2.7rem;
+  left: 1rem;
+  color: white;
+  opacity: 0.9;
+  font-size: 18px;
+}
+
+.boyd {
+  position: absolute;
+  top: 159rem;
+  left: 78rem;
+  width: 400px;
+  height: 220px;
+  background-color: hsl(219, 30%, 18%);
+  border-radius: 5px;
+}
+
+.iva {
+  position: absolute;
+  top: 9.5rem;
+  left: 1rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.name3 {
+  position: absolute;
+  top: 9.9rem;
+  left: 5rem;
+  color: white;
+  opacity: 0.9;
+  font-size: 14px;
+}
+
+.ceo3 {
+  position: absolute;
+  top: 11.2rem;
+  left: 5rem;
+  color: white;
+  opacity: 0.9;
+  font-size: 14px;
+}
+
+.profile3 {
+  position: absolute;
+  top: 2.7rem;
+  left: 1rem;
+  color: white;
+  opacity: 0.9;
+  font-size: 18px;
+}
+
+.footer {
+  position: absolute;
+  top: 200rem;
+  width: 100%;
+  height: 550px;
+  margin-bottom: 0;
+  background-color: hsl(217, 28%, 15%);
+  background-color: hsl(218, 28%, 13%);
+  background-color: hsl(216, 53%, 9%);
+}
+
+.footer-logo {
+  position: absolute;
+  top: 15rem;
+  left: 8rem;
+  cursor: pointer;
+}
+
+.icon {
+  position: absolute;
+  top: 21rem;
+  left: 8rem;
+}
+
+.lorem {
+  position: absolute;
+  top: 21rem;
+  left: 10rem;
+  color: white;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.phone {
+  position: absolute;
+  top: 21rem;
+  left: 45rem;
+}
+
+.number {
+  position: absolute;
+  top: 21rem;
+  left: 47rem;
+  color: white;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.email {
+  position: absolute;
+  top: 23.5rem;
+  left: 45rem;
+}
+
+.example {
+  position: absolute;
+  top: 23.5rem;
+  left: 47rem;
+  color: white;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.about {
+  position: absolute;
+  top: 20rem;
+  left: 77rem;
+  color: white;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.jobs {
+  position: absolute;
+  top: 22rem;
+  left: 77rem;
+  color: white;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.press {
+  position: absolute;
+  top: 24rem;
+  left: 77rem;
+  color: white;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.blog {
+  position: absolute;
+  top: 26rem;
+  left: 77rem;
+  color: white;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.contact {
+  position: absolute;
+  top: 20rem;
+  left: 85rem;
+  color: white;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.term {
+  position: absolute;
+  top: 22rem;
+  left: 85rem;
+  color: white;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.privacy {
+  position: absolute;
+  top: 24rem;
+  left: 85rem;
+  color: white;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#facebook {
+  position: absolute;
+  top: 20rem;
+  left: 100rem;
+  border: 1px solid white;
+  border-radius: 100px;
+  padding: 7px 10px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#twitter {
+  position: absolute;
+  top: 20rem;
+  left: 103rem;
+  border: 1px solid white;
+  border-radius: 100px;
+  padding: 5px 5px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#instagram {
+  position: absolute;
+  top: 20rem;
+  left: 106rem;
+  border: 1px solid white;
+  border-radius: 100px;
+  padding: 5px 5px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.start {
+  position: absolute;
+  top: 188rem;
+  left: 35rem;
+  width: 800px;
+  height: 300px;
+  background-color: hsl(219, 30%, 18%);
+  border-radius: 5px;
+}
+
+.today {
+  position: absolute;
+  top: 2.5rem;
+  left: 8rem;
+  color: white;
+  font-size: 45px;
+}
+
+.minutes {
+  position: absolute;
+  top: 4.5rem;
+  left: 5rem;
+  color: white;
+  opacity: 0.5;
+  padding: 50px 0px;
+  font-size: 14px;
+}
+
+.quiz {
+  position: absolute;
+  top: 6.5rem;
+  left: 12rem;
+  color: white;
+  opacity: 0.5;
+  padding: 50px 0px;
+  font-size: 14px;
+}
+
+.input {
+  position: absolute;
+  top: 13.5rem;
+  left: 5rem;
+  height: 40px;
+  width: 400px;
+  border-radius: 30px;
+}
+
+.btn1 {
+  position: absolute;
+  top: 13.5rem;
+  left: 31.5rem;
+  font-size: 15px;
+  color: white;
+  background-color: hsl(176, 68%, 64%);
+  background-color: hsl(198, 60%, 50%);
+  padding: 8px 40px;
+  border-radius: 30px;
+  cursor: pointer;
+}
